@@ -17,5 +17,4 @@ FROM ubuntu:20.04
 COPY --from=builder ${project}/fuzz/hfuzz_target/x86_64-unknown-linux-gnu/release/components_constraints /
 COPY --from=builder ${project}/fuzz/hfuzz_target/x86_64-unknown-linux-gnu/release/full_print /
 COPY --from=builder ${project}/fuzz/hfuzz_target/x86_64-unknown-linux-gnu/release/parse_config /
-COPY --from=builder ${project}/fuzz/hfuzz_target/x86_64-unknown-linux-gnu/release/parse_config_str /
 COPY --from=builder ${project}/fuzz/hfuzz_target/x86_64-unknown-linux-gnu/release/width /
