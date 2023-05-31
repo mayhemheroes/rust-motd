@@ -1,5 +1,5 @@
 use honggfuzz::fuzz;
-use rust_motd::config::Config;
+use rust_motd::{config::Config, component::{BoxedComponent, Constraints}};
 
 fn main() {
     loop {
