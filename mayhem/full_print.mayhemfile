@@ -1,0 +1,6 @@
+project: rust-motd
+target: full-print
+cmds:
+    - cmd: /full_print
+testsuite:
+    - file://mayhem/examples

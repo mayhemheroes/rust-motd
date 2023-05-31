@@ -1,0 +1,6 @@
+project: rust-motd
+target: width
+cmds:
+    - cmd: /width
+testsuite:
+    - file://mayhem/examples
