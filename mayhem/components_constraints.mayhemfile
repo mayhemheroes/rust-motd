@@ -1,0 +1,6 @@
+project: rust-motd
+target: components-constraints
+cmds:
+    - cmd: /components_constraints
+testsuite:
+    - file://mayhem/examples

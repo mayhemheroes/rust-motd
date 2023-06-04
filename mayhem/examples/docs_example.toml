@@ -1,0 +1,33 @@
+[banner]
+color = "red"
+command = "figlet nas -f slant"
+
+[weather]
+loc = "New York, New York"
+
+[service_status]
+Accounts = "accounts-daemon"
+Cron = "cronie"
+
+[uptime]
+prefix = "Up"
+
+[ssl_certificates]
+sort_method = "alphabetical"
+
+    [ssl_certificates.certs]
+    "example.com" = "./example-selfsigned.crt"
+
+[filesystems]
+root = "/"
+
+[memory]
+swap_pos = "beside"
+
+[fail_2_ban]
+jails = ["sshd"]
+
+[last_login]
+marcel = 2
+
+[last_run]

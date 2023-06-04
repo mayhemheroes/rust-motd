@@ -1,0 +1,6 @@
+project: rust-motd
+target: parse-config
+cmds:
+    - cmd: /parse_config
+testsuite:
+    - file://mayhem/examples
